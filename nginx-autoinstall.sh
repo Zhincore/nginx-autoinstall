@@ -366,6 +366,7 @@ case $OPTION in
 
 	NGINX_MODULES="--with-threads \
 		--with-file-aio \
+		--with-http_random_index_module \
 		--with-http_ssl_module \
 		--with-http_v2_module \
 		--with-http_mp4_module \
