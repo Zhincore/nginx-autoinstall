@@ -1,3 +1,5 @@
+# ![NGiNX Logo](Nginx_Logo.png "NGiNX Logo")
+
 # nginx-autoinstall
 
 Compile and install NGINX from source with optional features, modules and patches.
@@ -22,11 +24,7 @@ The script might work on ARM-based architectures, but it's only being regularly 
 
 - [LibreSSL from source](http://www.libressl.org/) (CHACHA20, ALPN for HTTP/2, X25519, P-521)
 - [OpenSSL from source](https://www.openssl.org/) (TLS 1.3, CHACHA20, ALPN for HTTP/2, X25519, P-521)
-<<<<<<< HEAD
-- [Cloudflare's patch for HTTP/3](https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/) with [Quiche](https://github.com/cloudflare/quiche) and [BoringSSL](https://github.com/google/boringssl).  
-=======
 - [Cloudflare's patch for HTTP/3](https://blog.cloudflare.com/experiment-with-http-3-using-nginx-and-quiche/) with [Quiche](https://github.com/cloudflare/quiche) and [BoringSSL](https://github.com/google/boringssl).
->>>>>>> f59c4ca7f55fafafa197b8a106a202cda47f2423
 - [Cloudflare's TLS Dynamic Record Resizing patch](https://blog.cloudflare.com/optimizing-tls-over-tcp-to-reduce-latency/) maintained by [nginx-modules](https://github.com/nginx-modules/ngx_http_tls_dyn_size).
 - [Cloudflare's HTTP/2 HPACK encoding patch](https://blog.cloudflare.com/hpack-the-silent-killer-feature-of-http-2/) ([original patch](https://github.com/cloudflare/sslconfig/blob/master/patches/nginx_1.13.1_http2_hpack.patch), [fixed patch](https://github.com/hakasenyang/openssl-patch/blob/master/nginx_hpack_push_1.15.3.patch))
 - [ngx_pagespeed](https://github.com/pagespeed/ngx_pagespeed): Google performance module
